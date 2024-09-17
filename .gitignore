@@ -1,0 +1,64 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.env
+.venv/
+venv/
+ENV/
+env/
+.Python
+migrations/
+alembic/versions/
+instance/
+.idea/
+.vscode/
+.DS_Store
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Database
+*.sqlite3
+*.db
+
+# alembic migrations
+alembic/versions/*
+!alembic/env.py
+!alembic/script.py.mako
+
+# dotenv environment variables file
+.env
+.env.*
+
+# Logs
+logs/
+*.log
+
+# Testing
+htmlcov/
+.tox/
+.cache/
+coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Pytest
+.pytest_cache/
+__pycache__/
+.cache
+
+# Unit test / coverage reports
+coverage/
+cover/
